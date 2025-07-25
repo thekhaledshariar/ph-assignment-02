@@ -13,14 +13,16 @@ body {
 /* button-style */
 
 button {
+
     background-color: #E95A08;
     border: 1px solid #E95A08;
     color: #fafafa;
+    font-family: 'Noto-Serif';
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 500;
     text-transform: capitalize;
-    border-radius: 10px;
-    padding: 12px 36px;
+    width: 100%;
+    padding: 15px;
     transition: all 0.3s ease-in-out;
 }
 
@@ -74,7 +76,7 @@ h5 {
 
 h6 {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 1.5em;
     color: #0e0e0e;
 }
@@ -184,7 +186,7 @@ h6 {
     gap: 20px;
 }
 
-#h2-black {
+.headline-black {
     color: #0e0e0e;
 }
 
@@ -210,3 +212,52 @@ ul {
     top: 690px;
     left: 530px;
 }
+
+/* Plants Section */
+
+#plants-section {
+    max-width: 1140px;
+    padding: 0px 0px 120px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.headline {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+.plants-section-contents {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.plants-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-contents {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.card-headline {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+}
+
