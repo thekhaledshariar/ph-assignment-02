@@ -400,3 +400,57 @@ ul {
 .subscribe-form button:hover {
   background-color: #c94d06;
 }
+
+/* Footer Section */
+
+#footer-section {
+    max-width: 1140px;
+    padding: 120px 0px 50px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.row-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.row-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.row-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.row-4 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.footer-link {
+    font-family: 'Noto-serif';
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #0e0e0e;
+}
+
+.footer-link:hover {
+    color: #E95A08;
+}
+
+#logo {
+    width: 135px;
+    height: 82px;
+}
