@@ -158,3 +158,55 @@ h6 {
     flex-direction: column;
     gap: 20px;
 }
+
+/* Trusted Plant Lover Badge */
+
+#trusted-plant-lover-badge {
+    max-width: 1140px;
+    padding: 120px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.badge_image_contents {
+    display: flex;
+    flex-direction: column;
+}
+
+.badge_text_contents {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#h2-black {
+    color: #0e0e0e;
+}
+
+li {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #737373;
+    margin: 0;
+    line-height: 1.5em;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#badge {
+    width: 286px;
+    height: 286px;
+    position: absolute;
+    top: 690px;
+    left: 530px;
+}
