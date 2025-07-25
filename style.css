@@ -1,1 +1,152 @@
-@import "tailwindcss";
+/* global style */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+/* button-style */
+
+button {
+  background-color: #E95A08;
+  border: 1px solid #E95A08;
+  color: #fafafa;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: capitalize;
+  border-radius: 10px;
+  padding: 12px 36px;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #fafafa;
+  color: #E95A08;
+  border: 1px solid #E95A08;
+  cursor: pointer;
+}
+
+/* font-style */
+
+h1 {
+    font-family: 'noto serif', serif;
+    font-size: 65px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.25em;
+    margin: 0;
+    color: #E95A08;
+}
+
+h2 {
+    font-family: 'noto serif', serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.25em;
+    margin: 0;
+    color: #E95A08;
+}
+
+h3 {
+    font-family: 'noto serif', serif;
+    font-size: 36px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 1.25em;
+    margin: 0;
+    color: #0e0e0e;
+}
+
+h4 {
+    font-family: 'noto serif', serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.50em;
+    margin: 0;
+    color: #737373;
+}
+
+h5 {
+    font-family: 'noto serif', serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.50em;
+    margin: 0;
+    color: #0e0e0e;
+}
+
+h6 {
+    font-family: 'noto serif', serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.50em;
+    margin: 0;
+    color: #0e0e0e;
+}
+
+.paragraph {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #737373;
+    margin: 0;
+    line-height: 1.5em;
+}
+
+
+
+
+
+
+
+/* section css starts here */
+
+/* nav-bar-here */
+
+#navbar {
+  max-width: 1140px;
+  /* margin: 0 150px; */
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 20px 0px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+#cart-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.link {
+    font-family: 'noto-serif';
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #0e0e0e;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.link:hover {
+    color: #E95A08;
+}
+
+.link.active {
+    color: #E95A08;
+}
